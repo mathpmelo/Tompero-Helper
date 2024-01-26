@@ -3,16 +3,22 @@
     "manifest_version": 3,
     "name": "Tompero Helper",
     "description": "Tompero Helper [Early Adopter Edition]",
-    "version": "1.1",
+    "version": "1.1.420",
     "icons": {
-        "16": "logo/tomatocat_bg.png",
-        "48": "logo/tomatocat_bg.png",
-        "128": "logo/tomatocat_bg.png"
+        "16": "logo/icone.png",
+        "48": "logo/icone.png",
+        "128": "logo/icone.png"
     },
     "options_page": "settings/settings.html",
     "action": {
         "default_title": "Tompero Helper"
     },
+    "web_accessible_resources": [
+        {
+          "resources": ["logo/icone.png"],
+          "matches": ["https://ifood-support.atlassian.net/*"]
+        }
+    ],
     "permissions": ["scripting", "activeTab"],
     "host_permissions": [
         "*://*/*"
